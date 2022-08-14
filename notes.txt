@@ -1,0 +1,20 @@
+ideas:
+- build calender -> all general time info
+- train for every store & every item separately
+
+Problem:
+- missing trends of single store (feature for overall sales)
+	- might depend on location,..
+- missing trends of all stores   (feature for countrywide sales)
+	- want to train stores together since there might be dependencies between them (or make it into feature)
+
+
+Transacations:
+- can't use since no test data for it -> find correlation (time or feature) & use that
+
+
+TODO:
+1. build calender DF + suggested featuers from notebook
+2. build store specific features (check correlation transaction & store)
+3. train for every store & item separately
+4. use date as feature & train everything toether (need to broadcast calender DF)
